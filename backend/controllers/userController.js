@@ -52,6 +52,7 @@ export const login = async (req, res) => {
                 success: false
             })
         };
+
         const isPasswordMatch = await bcrypt.compare(password, user.password);
         if (!isPasswordMatch) {
             return res.status(400).json({
@@ -76,6 +77,7 @@ export const login = async (req, res) => {
         console.log(error);
     }
 }
+
 export const logout = (req, res) => {
     try {
         return res.status(200).cookie("token", "", { maxAge: 0 }).json({
@@ -85,6 +87,7 @@ export const logout = (req, res) => {
         console.log(error);
     }
 }
+
 export const getOtherUsers = async (req, res) => {
     try {
         const loggedInUserId = req.id;
