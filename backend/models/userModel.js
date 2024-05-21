@@ -23,6 +23,6 @@ const userModel=new mongoose.Schema({
         enum:["male","female"],
         required: true
     }
-});
+},{timestamps:true});
 
 export default User = mongoose.model("user", "userMode");
