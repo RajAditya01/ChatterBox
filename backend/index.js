@@ -3,7 +3,7 @@ import express from "express";  //method 2
 
 const app= express();
 
-const PORT=8080;
+const PORT=process.env.PORT || 8080;
 
 app.listen(PORT, ()=>{
     console.log(`server listen at port ${PORT}`);
