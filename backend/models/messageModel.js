@@ -3,18 +3,17 @@ import mongoose from "mongoose";
 const messageModel = new mongoose.Schema({
     senderId:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"user",
+        ref:"User",
         required:true
     },
-    receiverID:{
+    receiverId:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"user",
+        ref:"User",
         required:true
     },
     message:{
         type:String,
         required:true
-    },
-},{timestamps:true})
-
-export default Message = mongoose.model("Message", messageModel);
+    }
+},{timestamps:true});
+export const Message = mongoose.model("Message", messageModel);
