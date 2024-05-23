@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import SignUp from './components/SignUp';
+import SignUp from './components/Signup';
 import HomePage from './components/HomePage';
 import Login from './components/Login';
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
+    <div className="p-4 h-screen flex items-center justify-center">
       <RouterProvider router={router} />
     </div>
   );
