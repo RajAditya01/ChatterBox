@@ -1,11 +1,26 @@
 import './App.css';
-import {createBrowserRouter} from "react-router-dom";
+import {createBrowserRouter , RouterProvider} from "react-router-dom";
+import SignUp from './components/SignUp';
 
-const roy
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:<HomePage/>
+  },
+  {
+    path:"/register",
+    element:<SignUp/>
+  },
+  {
+    path:"/login",
+    element:<Login/>
+  }
+])
 function App() {
   return (
     <div className="App">
-      Lets Build Chat App
+      <RouterProvider router={router}></RouterProvider>
+      
     </div>
   );
 }
