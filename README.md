@@ -29,6 +29,17 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Node.js and npm installed on your machine.
 - MongoDB installed locally or accessible via a cloud service like MongoDB Atlas.
 
+###  Screenshots 
+![image](https://github.com/RajAditya01/ChatterBox/assets/101439988/531eaca4-7b66-4a94-b2c7-010a34e46da5)
+---- -
+![image](https://github.com/RajAditya01/ChatterBox/assets/101439988/6f04f8c9-73de-4691-96a2-8b71c7aff6a5)
+---- -
+![image](https://github.com/RajAditya01/ChatterBox/assets/101439988/4ccd90f5-b751-4429-bfe4-aee3731f2bdf)
+---- -
+![image](https://github.com/RajAditya01/ChatterBox/assets/101439988/efb60e2b-7baa-45e4-9291-82fc938e1e60)
+---- -
+![image](https://github.com/RajAditya01/RealRentalHub/assets/101439988/f5b65caf-a398-4d8c-9da2-9ab22eb9fd23)
+
 ### Installation
 
 1. Clone the repository:
